@@ -1,4 +1,4 @@
-print("Hello World")
+print("Hello Worlddd")
 
 def binarySeearch(list, target):
     first = 0
@@ -11,7 +11,7 @@ def binarySeearch(list, target):
             first = midpoint + 1
         else:
             last = midpoint - 1
-    return None
+    return print("nix da!")
 
 myList = [1, 3, 5, 7, 9]
-print(binarySeearch(myList, 7)) # 1
+print(binarySeearch(myList, 9)) # 1
